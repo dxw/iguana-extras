@@ -1,36 +1,17 @@
-# iguana-theme
+# iguana-extras
 
-Helpful gubbins for making themes with Iguana.
+Helpful gubbins for [Iguana](https://github.com/dxw/iguana)-based themes.
 
-## What does this repo provide
+## `\Dxw\Iguana\Extras\UseAtom`
 
-### `\Dxw\Iguana\Theme\Helpers`
+### Installation
 
-Your classes can easily declare helper functions:
-
-```
-<?php
-
-namespace Dxw\MyTheme;
-
-class MyClass
-{
-    public function __construct(\Dxw\Iguana\Theme\Helpers $helpers)
-    {
-        $helpers->registerFunction('myFunc', [$this, 'myFunc']);
-    }
-
-    public function myFunc($a)
-    {
-        echo esc_html($a + 1);
-    }
-}
-```
-
-And to call this helper function from a template, simply:
+Add the following to `app/di.php`:
 
 ```
-<?php h()->myFunc(4) ?>
+$registrar->addInstance(\Dxw\Iguana\Extras\UseAtom::class, new \Dxw\Iguana\Extras\UseAtom());
 ```
 
-Using `h()` means that you only need to pollute the global namespace with one function. And `h()` is a lot shorter than typing out the full namespace.
+### Usage
+
+That's all.
