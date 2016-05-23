@@ -15,3 +15,7 @@ $registrar->addInstance(\Dxw\Iguana\Extras\UseAtom::class, new \Dxw\Iguana\Extra
 ### Usage
 
 That's all.
+
+## Licence
+
+[MIT](COPYING.md)
