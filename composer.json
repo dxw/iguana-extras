@@ -13,6 +13,6 @@
         }
     },
     "require": {
-        "dxw/iguana": "dev-master"
+        "dxw/iguana": "^1.0"
     }
 }
