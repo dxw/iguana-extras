@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "57751a72cfb8574d27f627b5ef8f2750",
-    "content-hash": "333ca85671ec39e8e0b2149d705d1e2e",
+    "hash": "fed0c9d9d4b21bae12df6621b7b42ed1",
+    "content-hash": "9c313e172320ed07e91a000f571277e8",
     "packages": [
         {
             "name": "aura/autoload",
@@ -61,16 +61,16 @@
         },
         {
             "name": "dxw/iguana",
-            "version": "dev-master",
+            "version": "v1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dxw/iguana.git",
-                "reference": "4d2e06ceb83a047c176f87488af88f9772b667e9"
+                "reference": "7e9f3d40cd7bab57f5b6024047eaf8271f9f8d13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dxw/iguana/zipball/4d2e06ceb83a047c176f87488af88f9772b667e9",
-                "reference": "4d2e06ceb83a047c176f87488af88f9772b667e9",
+                "url": "https://api.github.com/repos/dxw/iguana/zipball/7e9f3d40cd7bab57f5b6024047eaf8271f9f8d13",
+                "reference": "7e9f3d40cd7bab57f5b6024047eaf8271f9f8d13",
                 "shasum": ""
             },
             "require": {
@@ -91,7 +91,7 @@
                 "MIT"
             ],
             "homepage": "https://github.com/dxw/iguana",
-            "time": "2016-05-18 14:43:08"
+            "time": "2016-05-18 18:59:51"
         }
     ],
     "packages-dev": [
@@ -1242,9 +1242,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "dxw/iguana": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
