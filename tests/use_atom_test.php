@@ -1,6 +1,8 @@
 <?php
 
-class UseAtom_Test extends PHPUnit_Framework_TestCase
+use PHPUnit\Framework\TestCase;
+
+class UseAtom_Test extends TestCase
 {
     public function setUp()
     {
@@ -44,6 +46,9 @@ class UseAtom_Test extends PHPUnit_Framework_TestCase
         ]);
 
         $useAtom->init();
+
+        // Check that this code runs to completion.
+        $this->assertTrue(True);
     }
 
     public function testDefaultFeed()
