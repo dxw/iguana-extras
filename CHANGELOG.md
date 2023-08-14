@@ -12,4 +12,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Earlier Releases]
 
-Releases up to and including v1.0.0 predate this changelog, but see the README[README.md] for summary of functionality.
+Releases up to and including v1.0.0 predate this changelog, but see the [README](README.md) for summary of functionality.
