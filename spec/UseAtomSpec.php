@@ -3,14 +3,10 @@
 use Dxw\Iguana\Extras\UseAtom;
 
 describe('UseAtom', function () {
-	// initialisation
 	beforeEach(function () {
 		$this->useAtom = new \Dxw\Iguana\Extras\UseAtom();
+	
 
-	});
-
-	afterEach(function () {
-		unset($this->useAtom);
 	});
 
 	describe("::register()", function () {
@@ -44,7 +40,7 @@ describe('UseAtom', function () {
 
 			$this->useAtom->init();
 
-
+			
 		});
 
 
