@@ -5,7 +5,7 @@ use Dxw\Iguana\Extras\UseAtom;
 describe('UseAtom', function () {
 	beforeEach(function () {
 		$this->useAtom = new \Dxw\Iguana\Extras\UseAtom();
-	
+
 
 	});
 
@@ -40,7 +40,7 @@ describe('UseAtom', function () {
 
 			$this->useAtom->init();
 
-			
+
 		});
 
 
