@@ -14,7 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Releases up to and including v1.0.0 predate this changelog, but see the [README](README.md) for summary of functionality.
 
-## 2025-01-17
+## [Unrealised]
 
 ### Added
 - Converted PHPUnit test to Kahlan.
